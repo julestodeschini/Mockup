@@ -4,63 +4,101 @@
 	<title>MockUp</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel = "stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="bootstrap.css">
 
 </head>
 
 <body>
 <!--header avec images background et liens -->
 	<header>
-		<img src="">
-		<nav>
-			<ul>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
+		<nav class="container-fluid">
+			<ul class="col-sm-offset-8">
+				<li><a href=""></a>produit</li>
+				<li><a href=""></a>avantages</li>
+				<li><a href=""></a>Infos</li>
+				<li><a href=""></a>Contact</li>
 			</ul>
 		</nav>
 	</header>
 <!--la section principale avec les 3 sections et le formulaire -->
 	<main>
-	<section><!--titre article et image-->
-		<img src="">
-		<h2></h2>
-		<article>
-			<p></p>
-			<p></p>
+	<section id="section1"><!--titre article et image-->
+
+		<article class="col-md-offset-6">
+			<h2>Titre</h2>
+							<p>
+								<strong>Lorem ipsum dolor </strong>sit amet, consectetur adipiscing elit. Duis in tempus orci, auctor mattis elit.
+								Mauris sollicitudin neque vel nulla pharetra venenatis. Nullam eget interdum erat. Aliquam mollis odio lacinia, lacinia ante quis, fermentum velit.
+								Aenean commodo aliquet turpis ut feugiat.
+							</p>
+
+							<p>
+								<strong>Lorem ipsum dolor </strong> sit amet, consectetur adipiscing elit. Duis in tempus orci, auctor mattis elit.
+								Mauris sollicitudin neque vel nulla pharetra venenatis. Nullam eget interdum erat. Aliquam mollis odio lacinia, lacinia ante quis, fermentum velit.
+								Aenean commodo aliquet turpis ut feugiat.
+							</p>
 		</article>
 	</section>
 
-	<section><!--section 2 avec les logo energy etc-->
-		<h2></h2>
-		<hr>
-		<figure></figure>
-		<figcaption></figcaption>
-		<figure></figure>
-		<figcaption></figcaption>
-		<figure></figure>
-		<figcaption></figcaption>
-	</section>
-
-	<section>
+	<section id="section2"><!--section 2 avec les logo energy etc-->
+		<h2>Titre</h2>
 		<article>
-			<p></p>
 		</article>
-		<form>
-			<input type="" name="">
-			<input type="" name="" value="">
-			<input type="" name="">
-			<input type="" name="">
-			<input type="" name="">
+<!--image cardiaque-->
+		<div id="coeur">
+			<figure><img src="icones/heart.svg"></figure>
+			<figcaption>
+					<p>Argument 1</p>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in tempus orci, auctor mattis elit. Mauris sollicitudin neque vel nulla pharetra venenatis. Nullam eget interdum erat.</p>
+			</figcaption>
+		</div>
+<!--image MockUp-->
+		<div id="snack">
+		<figure><img src="icones/energy-snack.svg"></figure>
+			<figcaption>
+				<p>Argument 2</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in tempus orci, auctor mattis elit. Mauris sollicitudin neque vel nulla pharetra venenatis. Nullam eget interdum erat.</p>
+			</figcaption>
+		</div>
+
+<!--image Montre-->
+		<div id="montre">
+			<figure><img src="icones/stopwatch.svg"></figure>
+			<figcaption>
+				<p>Argument 3</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in tempus orci, auctor mattis elit. Mauris sollicitudin neque vel nulla pharetra venenatis. Nullam eget interdum erat.</p>
+			</figcaption>
+		</div>
+	</section>
+<!--dernière section avec image background et text + formulaire-->
+	<section id="section3">
+		<article class="col-md-offset-3">
+			<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in tempus orci, auctor mattis elitLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in tempus orci, auctor mattis elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in tempus orci, auctor mattis elit.</i></p>
+		</article>
+	</section>
+	<section id="section4">
+	<!--Debut du formulaire ! -->
+		<form method="post" action="">
+			<div class="container">
+				<div class="row col-md-6">
+					<p><input type="text" name="nom" placeholder="Nom"/></p>
+					<p><input type="text" name="prenom" placeholder="Prénom" /></p>
+					<p><input type="email" placeholder="Votre Email" /></p>
+					<p><input type="tel" placeholder="telephone" /> </p>
+				</div>
+					<div class=" validation col-md-6">
+						<p><textarea name="message" rows="7" cols="40" placeholder="saisissez votre demande"></textarea>  </p>
+						<p><input type="submit" value="envoyer"/></p>
+					</div>
+			</div>
 		</form>
 	</section>
 	</main>
 <!--le footer avec un background et des images liens-->
 	<footer>
-		<p></p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		<a href=""></a>
 	</footer>
 
-</body> -->
+</body>
 </html>

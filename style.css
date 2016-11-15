@@ -1,0 +1,125 @@
+header
+{
+  background: url("header.svg");
+  width: 100%;
+  height: 42vh;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+header img
+{
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 33%;
+  height: 50%;
+}
+header nav ul li
+{
+display: inline;
+
+}
+header nav ul
+{
+  margin-bottom: 0%;
+}
+header nav
+{
+  padding-top: 19%;
+}
+#section1
+{
+background-image: url("fondsection1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 120vh;
+}
+#section1 article
+{
+padding-top: 10%;
+width: 40%;
+}
+#section1 p
+{
+padding-bottom: 4%;
+}
+#section1 h2{
+  margin-top: 0;
+  color: red;
+
+}
+
+#section2 article{
+  height: 10vh;
+  background-image: url("trace.svg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+#section2 img{
+  text-align: center;
+  height:15vh;
+}
+#section2 figcaption{
+  text-align: center;
+}
+
+#section3
+{
+background-image: url("fondsection3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 120vh;
+width: 100%;
+}
+#section3 p
+{
+text-align: right;
+padding-top: 28vh;
+width: 20%;
+position: relative;
+color: grey;
+}
+
+#section4
+{
+background-image: url("fondsection4.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 120vh;
+}
+#section4 .row{
+  padding-top: 15%;
+  text-align: right;
+}
+#section4 .row input
+{
+  margin-bottom: 5%;
+  width: 75%;
+}
+section .validation
+{
+  padding-top: 15%;
+  padding-left: 3%;
+}
+#coeur,#snack,#montre{
+  display:inline-block;
+  vertical-align: top;
+  width:33%
+}
+#coeur figure,#snack figure,#montre figure{
+  text-align: center;
+}
+
+#coeur figcaption,#snack figcaption,#montre figcaption{
+  padding: 20%;
+  margin-bottom: -10%;
+}
+
+#coeur img{
+  height: 25vh;
+}
+#snack img{
+  height: 33vh;
+}
+#snack figcaption{
+  padding-top: -50%;
+}
